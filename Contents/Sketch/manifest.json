@@ -1,0 +1,17 @@
+{
+    "name" : "Export Layer To XML",
+    "identifier" : "michaelcalbers.ExportLayerToXML",
+    "version" : "0.0.3",
+    "description" : "With a layer selected, export it to XML.",
+    "authorEmail" : "michael.c.albers@gmail.com",
+    "author" : "Michael C. Albers",
+
+    "commands" : [
+    {
+      "script" : "Export-Layer-To-XML.js",
+      "handler" : "onRun",
+      "name" : "Export!",
+      "identifier" : "michaelcalbers.plugin.export-layer-to-xml"
+    }
+  ],
+}
